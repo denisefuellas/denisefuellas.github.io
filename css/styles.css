@@ -1,0 +1,111 @@
+/* wildcard styling */
+* {
+    box-sizing: border-box;
+    border-color: #76573e;
+}
+
+.menu-nav {
+    padding-right: 8px;
+}
+
+/* padding for whole body */
+body {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: #F3F3F3;
+}
+
+section {
+    padding-bottom: 8px;
+}
+
+/* styling body */
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+h1 {
+    color: #76573e;
+    font-family: optima;
+    margin-bottom: -12px;
+}
+
+h3 {
+    font-family: optima;
+}
+
+/* anchor tag decoration */
+a {
+    text-decoration: none;
+    color: #76573e;
+    font-family: optima;
+}
+
+
+
+/* paragraph tag decoration */
+p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+    font-family: optima;
+    padding-left: 12px;
+}
+
+img {
+    border-radius: 12px;
+}
+
+/* p {
+    color: gray;
+    background-image: none;
+    background-color: transparent;
+    font-family: sans-serif;
+} */
+
+/* row and column decoration */
+.row {
+    margin: 0px -18px;
+    padding: 8px;
+}
+
+.row > .column {
+    padding: 6px;
+}
+
+.column {
+    float: left;
+    width: 25%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* content decoration */
+.content {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 16px;
+}
+
+/* window size 850 width set */
+@media screen and (max-width: 850px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* window size 400 width set */
+@media screen and (max-width: 400px) {
+    .column {
+        width: 100%;
+    }
+}
