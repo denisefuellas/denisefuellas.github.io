@@ -1,0 +1,164 @@
+/* padding for whole body */
+main {
+  padding-top: -50%;
+}
+
+body {
+  padding-top: 0px; 
+  padding-bottom: 0px;
+  margin-left: -0.001%;
+  margin-right: -0.001%;
+  background-color:#172028;
+}
+
+.logo-header {
+  margin-top: -4%;
+  padding-top: 24px;
+  /* background-color: #F3F3F3; */
+  height: fit-content;
+}
+
+.logo {
+  color: #D46E24;
+  font-family: 'Libre Baskerville';
+  font-size: 46px;
+  margin-bottom: -12px;
+  text-align: center;
+  padding-top: -12px;   
+}
+
+.slogan {
+  color: #D46E24;
+  font-family: 'Montserrat';
+  font-size: medium;
+  text-align: center;
+  padding-bottom: 2px;
+}
+
+/* background color of the top navigation */
+.topnav {
+  background-color: #F1EAE4;
+  margin-left: -0.5%;
+  margin-right: -0.5%;
+  overflow: hidden;
+}
+  
+/* navigation bar */
+
+.topnav a {
+  float: left;
+  color: #3D281B;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 16px;
+  font-style: 'semibold';
+  font-family: 'Montserrat';
+  width: 260px;
+  margin: auto;
+}
+  
+/* color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+  
+
+h1 {
+  color: #D46E24;
+  font-family: 'Libre Baskerville';
+  font-size: 46px;
+  /* margin-bottom: -12px; */
+  text-align: center;
+  /* padding-top: -12px;    */
+}
+
+h2  {
+  color: #D46E24;
+  font-family: 'Montserrat';
+  font-size: medium;
+  text-align: center;
+}
+
+h3   {
+  color:#F1EAE4;
+  font-family: 'Libre Baskerville';
+  font-size: 28px;
+  text-align: center;
+}
+
+.container { 
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+
+.btn {
+  border-color: #D46E24;
+  background-color: transparent;
+  font-family: 'Montserrat';
+  color: #D46E24;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  align-items: center;
+}
+
+.centered {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.padded {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.banner {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.banner-caption {
+  position: absolute;
+  font-family: montserrat;
+  font-weight: 900;
+  font-size: 72px;
+  width: 46.6%;
+  top: 90px;
+  left: 64px;
+  text-align: left;
+}
+
+.banner-img {
+  background-color: rgba(0,0,0,0.5);
+  opacity: 30%;
+  height: 500px;
+}
+
+.services {
+  position: relative;
+  text-align: center;
+  color: F1EAE4;
+}
+
+.h3 {
+  position: absolute;
+  font-family: montserrat;
+  font-weight: 900;
+  font-size: 72px;
+  color: #3D281B
+}
+
+.footer {
+  text-align: center;
+  color: F1EAE4;
+}
