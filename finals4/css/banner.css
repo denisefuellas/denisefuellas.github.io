@@ -1,0 +1,96 @@
+.banner {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.banner-img {
+    object-fit: cover;
+    background-color: rgba(0,0,0,0.5);
+    opacity: 30%;
+    height: 574px;
+    width: 100%;
+}
+
+.banner-title {
+    position: absolute;
+    width: 500px;
+    height: 183px;
+    left: 169px;
+    top: 204px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 54px;
+    line-height: 70px;
+    text-align: left;
+    /* or 130% */
+
+
+    color: #F1EAE4;
+}
+
+.banner-caption {
+    position: absolute;
+    width: 30.0%;
+    height: 108px;
+    left: 169px;
+    top: 358px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    
+    
+    
+    text-align: left;
+}
+
+.banner-button {
+    position: absolute;
+    width: 175px;
+    height: 38px;
+    left: 169px;
+    top: 444px;
+
+    border-color: #D46E24;
+    background-color: transparent;
+    font-family: 'Montserrat';
+    color: #D46E24;
+    padding: 0px;
+    font-size: 16px;
+    font-weight: 900;
+    cursor: pointer;
+    display: inline-block;
+    align-items: center;
+    
+    font-family: montserrat;
+    
+    text-align: center;
+}
+
+.banner-button:hover {
+    /* position: absolute;
+    width: 175px;
+    left: 130px;
+    top: 375px; */
+
+    border-color: #D46E24;
+    background-color: #D46E24;
+    font-family: 'Montserrat';
+    color: white;
+    font-size: 16px;
+    font-weight: 900;
+    cursor: pointer;
+    display: inline-block;
+    align-items: center;
+    
+    font-family: montserrat;
+    
+    text-align: center;
+}

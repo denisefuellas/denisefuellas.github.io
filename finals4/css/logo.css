@@ -1,0 +1,26 @@
+.logo {
+    position: relative;
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+
+    color: #FA8835;
+
+    
+    /* padding-top: 32px; */
+}
+
+.logo-caption {
+    position: relative;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #D46E24;
+}
