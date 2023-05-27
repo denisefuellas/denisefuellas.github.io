@@ -68,22 +68,3 @@ h2 {
 
     color: #D46E24;
 }
-
-.footer-copyright {
-    position: relative;
-}
-
-.footer-copyright p {
-    position: absolute;
-    width: 100%;
-    margin-top: 36px;
-
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    text-align: center;
-
-    color: #F1EAE4;
-}
