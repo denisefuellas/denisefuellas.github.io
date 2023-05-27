@@ -1,25 +1,36 @@
 <!DOCTYPE html>
 <html>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css">
-    <div class="logo-header">
+    <head>
+        <title>RONWORX - Furniture & Interior Design</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/layout.css">
+        <link rel="stylesheet" href="./css/header.css">
+        <link rel="stylesheet" href="./css/banner.css">
+        <link rel="stylesheet" href="./css/logo.css">
+        <link rel="stylesheet" href="./css/typography.css">
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+        <link href='https://fonts.googleapis.com/css?family=Libre Baskerville' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    </head>
+    <body>
         <div>
-            <link href='https://fonts.googleapis.com/css?family=Libre Baskerville' rel='stylesheet'>
-            <h1 class="logo">RONWORX</h1>
-            <h2 class="slogan">FURNITURE AND INTERIOR DESIGN</h2>
+            <div class="header">
+                <div class="center">
+                    <h1 class="logo">RONWORX</h1>
+                    <h2 class="logo-caption">FURNITURE AND INTERIOR DESIGN</h2>
+                </div>
+            </div>
+                
+            <div class="topnav">
+                <a class="active" href="#home">HOME</a>
+                <a href="#about">ABOUT</a>
+                <a href="#portfolio">PORTFOLIO</a>
+                <a href="#services">SERVICES</a>
+                <a href="#contact">CONTACT</a>
+            </div>
         </div>
 
-            <!-- Navigation -->
-            <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-        <div class="topnav">
-            <a class="topmenu" href="#home">HOME</a>
-            <a class="topmenu" href="#portfolio">PORTFOLIO</a>
-            <a class="topmenu" href="#services">SERVICES</a>
-            <a class="topmenu" href="#about">ABOUT</a>
-            <a class="topmenu" href="#contact">CONTACT</a>
-        </div>
-    </div>
-    <body>
         <div class="banner">
             <img src="./assets/images/interior-design.jpg" alt="Interior Design" style="width:100%" class="banner-img">
             <div class="banner-title">You imagine it, We create it.</div>
@@ -28,33 +39,51 @@
         </div>
 
 
-        <section class="padded">
+        <!-- <section class="padded">
             <h3>Customize your own high-end furniture.</h3>
             <button class="btn-centered">BOOK AN APPOINTMENT</button>
-        </section>
+        </section> -->
     
-        <div class="left-img-right-text">
-            <div class="left-img-box">
-                <img src="assets/images/furniture.jpg" alt="Furniture" class="left-img"></img>
+        <div class="container-light">
+            <div class="col-half-left">
+                <img src="assets/images/furniture.jpg" alt="Furniture"></img>
             </div>
-            <div class="right-textbox">
-                <div class="subheading">FURNITURE</div>
-                <div class="subheading-captions">Lorem ipsum dolor sit amet consectetur. Morbi eleifend nunc fusce sed eget volutpat tempus dictum. Pretium eu tortor et risus urna.</div>
-                <a class="textbox-link" href="#view-furniture-designs">VIEW FURNITURE DESIGNS</button>
+            <div class="col-half-right">
+                <h2 class="subheading">FURNITURE</h2>
+                <div class="subheading-captions">
+                    <p>Lorem ipsum dolor sit amet consectetur. 
+                        Morbi eleifend nunc fusce sed eget volutpat tempus dictum. 
+                        Pretium eu tortor et risus urna.
+                    </p>
+                </div>
+                <a href="#furniture-designs">VIEW FURNITURE DESIGNS</a>
             </div>
-            <!-- <img src="assets/images/furniture-design.png" alt="Furniture Design" style="width:100%" class="services-img"> -->
         </div>
     
-        <div class="right-img-left-text"></div>
-            <div class="right-img-box">
-                <img src="assets/images/interior-design-services.png" alt="Interior Design Services" class="right-img"></img>
+        <div class="container-light">
+            <div class="col-half-left">
+                <h2 class="subheading">INTERIOR DESIGN</h2>
+                <div class="subheading-captions">
+                    <p>Lorem ipsum dolor sit amet consectetur. 
+                        Morbi eleifend nunc fusce sed eget volutpat tempus dictum. 
+                        Pretium eu tortor et risus urna.
+                    </p>
+                </div>
+                <a href="#interior-services">VIEW INTERIOR SERVICES</a>
             </div>
-            <div class="left-textbox">
-                <div class="left-subheading">INTERIOR DESIGN</div>
-                <div class="left-subheading-captions">Lorem ipsum dolor sit amet consectetur. Morbi eleifend nunc fusce sed eget volutpat tempus dictum. Pretium eu tortor et risus urna.</div>
-                <a class="left-textbox-link" href="#view-interior-services">VIEW INTERIOR SERVICES</button>
+            <div class="col-half-right">
+                <img src="assets/images/interior-design-services.png" alt="Interior Design Services"></img>
             </div>
-                
+        </div>
+        
+        <!-- <div class="form">
+            <div>
+
+            </div>
+            <div>
+
+            </div>
+        </div> -->
        
     
         <!-- <section class="padded">
@@ -87,16 +116,15 @@
             </form>
           </div> -->
      
-
-
+        <footer>
+            <div class="footer-copyright">
+                <p>© 2023 RonWorx Furniture and Interior Design. All Rights Reserved.</p>
+            </div>
+        </footer>
           
     </body>
     
-    <footer>
-        <div class="footer-copyright">
-            <p class="footer-text">Copyright 2023 RonWorx Furniture and Interior Design. All Rights Reserved.</p>
-        </div>
-    </footer>
+    
 
 
     

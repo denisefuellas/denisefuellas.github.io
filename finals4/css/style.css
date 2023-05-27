@@ -1,0 +1,14 @@
+.container-dark {
+    position: relative;
+    
+}
+
+.container-light {
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #F1EAE4;
+    margin: 0;
+    top: 0;
+}
+
