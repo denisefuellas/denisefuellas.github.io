@@ -1,0 +1,192 @@
+{
+  "site": {
+    "brand_name": "Denise Fuellas",
+    "logo_initials": "DF"
+  },
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "education": "Education",
+    "portfolio": "Portfolio",
+    "cta": "Let's Talk"
+  },
+  "hero": {
+    "eyebrow": "Hello, I'm",
+    "name": "Denise Fuellas",
+    "tagline": "UI/UX Designer · Graphic Artist · Digital Design & Arts",
+    "bio": "Fresh graduate and freelance creative turning ideas into meaningful, beautiful digital experiences — one pixel at a time.",
+    "cta_primary": "View My Work",
+    "cta_secondary": "Get in Touch",
+    "scroll_hint": "Scroll"
+  },
+  "about": {
+    "label": "01 — About",
+    "heading": "Designing with<br /><em>purpose & passion</em>",
+    "paragraphs": [
+      "I'm Denise, a fresh Digital Design & Arts graduate with a deep love for design that connects, communicates, and delights. I specialize in UI/UX design, brand identity, and digital illustration — weaving storytelling into every piece of work I create.",
+      "Currently available for freelance projects. Whether it's a mobile app, a brand refresh, or a creative campaign, I bring curiosity, care, and craft to every collaboration."
+    ],
+    "tags": [
+      "Creative Thinker",
+      "Detail-Oriented",
+      "Collaborative",
+      "Always Learning"
+    ]
+  },
+  "skills": {
+    "label": "02 — Skills",
+    "heading": "What I bring<br /><em>to the table</em>",
+    "items": [
+      {
+        "title": "UI/UX Design",
+        "desc": "Crafting intuitive interfaces and seamless user journeys. From wireframes and prototypes to polished, pixel-perfect designs using Figma.",
+        "tags": [
+          "Figma",
+          "Wireframing",
+          "Prototyping",
+          "User Research"
+        ]
+      },
+      {
+        "title": "Graphic Design",
+        "desc": "Creating visual identities, print materials, social media content, and brand collateral that leaves lasting impressions through thoughtful composition.",
+        "tags": [
+          "Canva",
+          "Typography",
+          "Marketing",
+          "Branding"
+        ]
+      },
+      {
+        "title": "Digital Design & Arts",
+        "desc": "Bringing stories to life through video editing, audio production, and digital illustration — blending art and technology with a cinematic eye.",
+        "tags": [
+          "CapCut",
+          "Procreate",
+          "Logic Pro",
+          "Production"
+        ]
+      }
+    ]
+  },
+  "education": {
+    "label": "03 — Education",
+    "heading": "My academic<br /><em>foundation</em>",
+    "items": [
+      {
+        "period": "2023 — 2025",
+        "degree": "Associate of Arts in Digital Design and Arts",
+        "school": "University of the Philippines Open University",
+        "detail": "Completed a comprehensive program covering elements of visual arts, graphic design, multimedia, and technology.",
+        "highlights": [
+          "Graduated"
+        ]
+      },
+      {
+        "period": "2023",
+        "degree": "Principles of Graphic Design Certification",
+        "school": "University of the Philippines Open University",
+        "detail": "Completed a 16-hour online program covering traditional art principles, color theory, and design principles.",
+        "highlights": [
+          "Certified"
+        ]
+      },
+      {
+        "period": "2023",
+        "degree": "Diploma in UI/UX for Web Design and Development",
+        "school": "De La Salle College of Saint Benilde",
+        "detail": "Completed a 6-month intensive program covering UI/UX design using Figma, web development using HTML & CSS, and entrepreneurship.",
+        "highlights": [
+          "Merit Awardee"
+        ]
+      },
+      {
+        "period": "2020-2022",
+        "degree": "Senior High - Accountancy, Business, and Management",
+        "school": "St. Vincent de Ferrer College of Camarin Inc.",
+        "detail": "Completed the two-year ABM (Accountancy, Business, and Management) senior high strand, building a strong foundation in business principles, financial literacy, marketing strategy, and leadership through applied simulations.",
+        "highlights": [
+          "Batch Valedictorian",
+          "Graduated with High Honors",
+          "Director's Awardee"
+        ]
+      }
+    ]
+  },
+  "portfolio": {
+    "visible": false,
+    "label": "04 — Portfolio",
+    "heading": "Selected<br /><em>works</em>",
+    "filters": {
+      "all": "All",
+      "uiux": "UI/UX",
+      "graphics": "Graphics",
+      "multimedia": "Multimedia"
+    },
+    "projects": [
+      {
+        "category": "uiux",
+        "categoryLabel": "UI/UX Design",
+        "title": "Bloom Wellness App",
+        "desc": "A calming mental wellness mobile app, focused on daily journaling and mood tracking with a soft, accessible interface.",
+        "cta": "View Project ↗"
+      },
+      {
+        "category": "graphics",
+        "categoryLabel": "Brand Identity",
+        "title": "Terranova Brand Identity",
+        "desc": "Full brand identity system for a sustainable outdoor lifestyle brand — logo, typography, color system, and marketing collateral.",
+        "cta": "View Project ↗"
+      },
+      {
+        "category": "multimedia",
+        "categoryLabel": "Motion Design",
+        "title": "Luminary Motion Reel",
+        "desc": "A showcase motion graphics reel featuring animated typography, kinetic logo reveals, and fluid abstract compositions.",
+        "cta": "View Project ↗"
+      },
+      {
+        "category": "uiux",
+        "categoryLabel": "UI/UX Design",
+        "title": "Kafé Ordering System",
+        "desc": "A modern café POS and online ordering UI redesign — improving staff efficiency and customer experience through thoughtful UX.",
+        "cta": "View Project ↗"
+      },
+      {
+        "category": "graphics",
+        "categoryLabel": "Graphic Design",
+        "title": "Solstice Event Posters",
+        "desc": "A series of bold, editorial event posters for an annual arts festival, balancing vibrant palettes with clean typographic hierarchy.",
+        "cta": "View Project ↗"
+      },
+      {
+        "category": "multimedia",
+        "categoryLabel": "Multimedia",
+        "title": "Thesis Documentary Film",
+        "desc": "An award-winning short documentary on urban Filipino artisans, combining cinematography, motion graphics, and original sound design.",
+        "cta": "View Project ↗"
+      }
+    ]
+  },
+  "contact": {
+    "label": "04 — Contact",
+    "heading": "Let's create<br /><em>something together</em>",
+    "invite": "I'm open to freelance projects, collaborations, and creative conversations. Drop me a message — I'd love to hear about your vision.",
+    "email": "denisefuellas.work@gmail.com",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/denisefuellas"
+    },
+    "form": {
+      "name_label": "Your Name",
+      "name_placeholder": "Jane Smith",
+      "email_label": "Email Address",
+      "email_placeholder": "jane@example.com",
+      "message_label": "Message",
+      "message_placeholder": "Tell me about your project...",
+      "submit": "Send Message"
+    }
+  },
+  "footer": {
+    "copy": "Denise Fuellas. Crafted with care."
+  }
+}

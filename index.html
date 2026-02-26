@@ -1,72 +1,327 @@
 <!DOCTYPE html>
-<html>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/styles.css">
+<html lang="en">
 
-    <!-- Navigation -->
-    <nav>
-        <a class="menu-nav" href="#about-me" class="w3-button w3-bar-item">About Me</a>
-        <a class="menu-nav" href="#my-designs" class="w3-button w3-bar-item">My Designs</a>
-        <a class="menu-nav" href="#contact" class="w3-button w3-bar-item">Contact</a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Denise Fuellas — Freelance UI/UX Designer, Graphic Artist & Multimedia Arts Graduate. Explore her portfolio, work, and creative journey." />
+  <meta name="author" content="Denise Fuellas" />
+  <meta property="og:title" content="Denise Fuellas | UI/UX & Graphic Designer" />
+  <meta property="og:description"
+    content="Freelance designer blending visual storytelling with intuitive user experiences." />
+  <meta property="og:type" content="website" />
+  <script src="https://www.google.com/recaptcha/api.js?onload=onRecaptchaLoad&render=explicit" async defer></script>
+  <title>Denise Fuellas | UI/UX & Graphic Designer</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap"
+    rel="stylesheet" />
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="assets/favicons/favicon.ico" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/favicons/android-chrome-192x192.png" />
+  <link rel="icon" type="image/png" sizes="512x512" href="assets/favicons/android-chrome-512x512.png" />
+</head>
+
+<body>
+
+  <!-- ===================== NAVIGATION ===================== -->
+  <header class="site-header" id="site-header" role="banner">
+    <nav class="navbar" aria-label="Main navigation">
+      <a href="#hero" class="nav-logo" aria-label="Denise Fuellas — Home">
+        <span class="logo-initials" data-content-key="site.logo_initials"></span>
+        <span class="logo-name" data-content-key="site.brand_name"></span>
+      </a>
+
+      <!-- Hamburger toggle (mobile) -->
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false"
+        aria-controls="nav-menu">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+
+      <ul class="nav-menu" id="nav-menu" role="list">
+        <li><a href="#about" class="nav-link" data-section="about" data-content-key="nav.about"></a></li>
+        <li><a href="#skills" class="nav-link" data-section="skills" data-content-key="nav.skills"></a></li>
+        <li><a href="#education" class="nav-link" data-section="education" data-content-key="nav.education"></a></li>
+        <li><a href="#portfolio" class="nav-link" data-section="portfolio" data-content-key="nav.portfolio"></a></li>
+        <li><a href="#contact" class="nav-link nav-link--cta" data-section="contact" data-content-key="nav.cta"></a>
+        </li>
+      </ul>
     </nav>
+  </header>
 
-    <main>
-        <section>
-            <h1>About Me</h1>
-            <p>Hi! I'm Denise, an aspiring UI/UX designer.</p>
-        </section>
+  <main id="main-content">
 
-        <section>
-            <h1>My Designs</h1>
-            <p>Aside from practicing designs for UI/UX, I've also been into painting and digital art.</p>
-        </section>
-        
-        <!-- Content of the body-->
-        <body>    
-            <div class="row">
-                <div class="column">
-                    <div class="content">
-                        <img src="https://denisefuellas.github.io/assets/images/ui-ux.jpg" alt="ui/ux-design" style="width:100%">
-                        <h3>UI/UX Design</h3>
-                    </div>
-                </div>
-                    
-                <div class="column">
-                    <div class="content">
-                        <img src="https://denisefuellas.github.io/assets/images/digital-drawing.jpg" alt="digital-drawing" style="width:100%">
-                        <h3>Digital Art</h3>
-                    </div>
-                </div>
-                    
-                <div class="column">
-                    <div class="content">
-                        <img src="https://denisefuellas.github.io/assets/images/painting.jpg"alt="painting" style="width:100%">
-                        <h3>Paintings</h3>
-                    </div>
-                </div>
-                    
-                <div class="column">
-                    <div class="content">
-                        <img src="https://denisefuellas.github.io/assets/images/crafts.jpg" alt="crafts" style="width:100%">
-                        <h3>Crafts</h3>
-                    </div>
-                </div>
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" id="hero" aria-label="Hero introduction">
+      <div class="hero__bg-shapes" aria-hidden="true">
+        <div class="shape shape--circle-lg"></div>
+        <div class="shape shape--circle-sm"></div>
+        <div class="shape shape--ring"></div>
+        <div class="shape shape--dot-grid"></div>
+      </div>
+
+      <div class="hero__content container">
+        <p class="hero__eyebrow" data-content-key="hero.eyebrow"></p>
+        <h1 class="hero__name" data-content-key="hero.name"></h1>
+        <p class="hero__tagline" data-content-key="hero.tagline"></p>
+        <p class="hero__bio" data-content-key="hero.bio"></p>
+        <div class="hero__actions">
+          <a href="#portfolio" class="btn btn--primary" data-content-key="hero.cta_primary"></a>
+          <a href="#contact" class="btn btn--ghost" data-content-key="hero.cta_secondary"></a>
+        </div>
+        <!-- Scroll indicator -->
+        <div class="hero__scroll-hint" aria-hidden="true">
+          <span data-content-key="hero.scroll_hint"></span>
+          <div class="scroll-line"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== ABOUT ===================== -->
+    <section class="section about" id="about" aria-labelledby="about-heading">
+      <div class="container section__inner about__inner">
+        <div class="about__image-wrap">
+          <div class="about__image-frame" aria-hidden="true">
+            <div class="about__image-placeholder">
+              <img src="assets/images/profile.webp" alt="Photo of Denise Fuellas"
+                style="width:100%; height:100%; object-fit:cover; border-radius:inherit;"
+                onerror="this.replaceWith(document.querySelector('#avatar-fallback').content.cloneNode(true))" />
             </div>
-        </body>
 
+            <!-- Fallback SVG template — hidden, only used if image fails to load -->
+            <template id="avatar-fallback">
+              <svg class="about__avatar-icon" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true">
+                <circle cx="60" cy="42" r="28" fill="var(--color-rose-light)" />
+                <ellipse cx="60" cy="110" rx="46" ry="30" fill="var(--color-rose-light)" />
+              </svg>
+              <span class="visually-hidden">Photo of Denise Fuellas</span>
+            </template>
+            <div class="about__image-accent" aria-hidden="true"></div>
+          </div>
+        </div>
 
-        <section>
-            <h1>Contact</h1>
-            <p>Metro Manila, Philippines</p>
-            <p>Phone: +63 912 345 6789</p>
-            <p>Email: denisefuellas@gmail.com</p>
-        </section>
+        <div class="about__text">
+          <div class="section__label" aria-hidden="true" data-content-key="about.label"></div>
+          <h2 class="section__heading" id="about-heading" data-content-key="about.heading"></h2>
+          <div id="about-paragraphs" data-content-list="about.paragraphs">
+            <p class="about__paragraph"></p>
+            <p class="about__paragraph"></p>
+          </div>
+          <div class="about__tags" data-content-list="about.tags">
+            <span class="tag"></span>
+            <span class="tag"></span>
+            <span class="tag"></span>
+            <span class="tag"></span>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    </main>
+    <!-- ===================== SKILLS ===================== -->
+    <section class="section skills" id="skills" aria-labelledby="skills-heading">
+      <div class="container">
+        <div class="section__header">
+          <div class="section__label" aria-hidden="true" data-content-key="skills.label">02 — Skills</div>
+          <h2 class="section__heading" id="skills-heading" data-content-key="skills.heading"></h2>
+        </div>
 
-    <footer>
-        <p>Copyright 2023 Johanna Denise Fuellas</p>
-    </footer>
+        <div class="skills__grid" data-content-list="skills.items">
+
+          <article class="skill-card" data-aos>
+            <div class="skill-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="4" y="8" width="40" height="28" rx="4" stroke="currentColor" stroke-width="2" fill="none" />
+                <line x1="4" y1="34" x2="44" y2="34" stroke="currentColor" stroke-width="2" />
+                <line x1="20" y1="36" x2="28" y2="36" stroke="currentColor" stroke-width="2" />
+                <line x1="20" y1="40" x2="28" y2="40" stroke="currentColor" stroke-width="3" stroke-linecap="round" />
+                <circle cx="24" cy="21" r="5" stroke="currentColor" stroke-width="2" />
+                <path d="M14 30 C14 25 34 25 34 30" stroke="currentColor" stroke-width="2" fill="none" />
+              </svg>
+            </div>
+            <h3 class="skill-card__title"></h3>
+            <p class="skill-card__desc"></p>
+            <ul class="skill-card__tags"></ul>
+          </article>
+
+          <article class="skill-card" data-aos>
+            <div class="skill-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="16" cy="16" r="8" stroke="currentColor" stroke-width="2" fill="none" />
+                <circle cx="32" cy="16" r="8" stroke="currentColor" stroke-width="2" fill="none" />
+                <circle cx="24" cy="30" r="8" stroke="currentColor" stroke-width="2" fill="none" />
+              </svg>
+            </div>
+            <h3 class="skill-card__title"></h3>
+            <p class="skill-card__desc"></p>
+            <ul class="skill-card__tags"></ul>
+          </article>
+
+          <article class="skill-card" data-aos>
+            <div class="skill-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="4" y="10" width="40" height="28" rx="3" stroke="currentColor" stroke-width="2" fill="none" />
+                <polygon points="20,18 20,30 32,24" fill="currentColor" />
+              </svg>
+            </div>
+            <h3 class="skill-card__title"></h3>
+            <p class="skill-card__desc"></p>
+            <ul class="skill-card__tags"></ul>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== EDUCATION ===================== -->
+    <section class="section education" id="education" aria-labelledby="education-heading">
+      <div class="container">
+        <div class="section__header">
+          <div class="section__label" aria-hidden="true" data-content-key="education.label"></div>
+          <h2 class="section__heading" id="education-heading" data-content-key="education.heading"></h2>
+        </div>
+
+        <div class="education__timeline" data-content-list="education.items">
+
+          <article class="timeline-item" data-aos>
+            <div class="timeline-item__marker" aria-hidden="true"></div>
+            <div class="timeline-item__content">
+              <div class="timeline-item__period"></div>
+              <h3 class="timeline-item__degree"></h3>
+              <p class="timeline-item__school"></p>
+              <p class="timeline-item__detail"></p>
+              <div class="timeline-item__highlights"></div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== PORTFOLIO ===================== -->
+    <section class="section portfolio" id="portfolio" aria-labelledby="portfolio-heading">
+      <div class="container">
+        <div class="section__header">
+          <div class="section__label" aria-hidden="true" data-content-key="portfolio.label">04 — Portfolio</div>
+          <h2 class="section__heading" id="portfolio-heading" data-content-key="portfolio.heading">
+            Selected<br /><em>works</em></h2>
+        </div>
+
+        <!-- Portfolio Filter -->
+        <div class="portfolio__filters" role="group" aria-label="Filter portfolio by category"
+          data-content-list="portfolio.filters">
+          <button class="filter-btn filter-btn--active" data-filter="all">All</button>
+        </div>
+
+        <!-- Portfolio Grid -->
+        <div class="portfolio__grid" id="portfolio-grid" data-content-list="portfolio.projects">
+
+          <article class="project-card" data-aos>
+            <div class="project-card__visual" aria-hidden="true">
+              <div class="project-card__overlay">
+                <a href="#" class="project-card__view-btn"></a>
+              </div>
+            </div>
+            <div class="project-card__info">
+              <span class="project-card__category"></span>
+              <h3 class="project-card__title"></h3>
+              <p class="project-card__desc"></p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section class="section contact" id="contact" aria-labelledby="contact-heading">
+      <div class="container contact__inner">
+        <div class="contact__text">
+          <div class="section__label" aria-hidden="true" data-content-key="contact.label">05 — Contact</div>
+          <h2 class="section__heading" id="contact-heading" data-content-key="contact.heading">
+            Let's create<br /><em>something together</em>
+          </h2>
+          <p class="contact__invite" data-content-key="contact.invite">
+            I'm open to freelance projects, collaborations, and creative conversations.
+            Drop me a message — I'd love to hear about your vision.
+          </p>
+          <a href="#" class="contact__email" data-content-key="contact.email"></a>
+
+          <!-- Social Links -->
+          <nav class="social-links" aria-label="Social media links">
+            <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" class="social-link"
+              aria-label="LinkedIn profile">
+              <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path
+                  d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+              </svg>
+              LinkedIn
+            </a>
+          </nav>
+        </div>
+
+        <form class="contact__form" id="contact-form" novalidate aria-label="Contact form">
+          <div class="form-group">
+            <label for="name" class="form-label" data-content-key="contact.form.name_label">Your Name</label>
+            <input type="text" id="name" name="name" class="form-input" placeholder="Jane Smith"
+              data-content-placeholder="contact.form.name_placeholder" autocomplete="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email" class="form-label" data-content-key="contact.form.email_label">Email Address</label>
+            <input type="email" id="email" name="email" class="form-input" placeholder="jane@example.com"
+              data-content-placeholder="contact.form.email_placeholder" autocomplete="email" required />
+          </div>
+          <div class="form-group">
+            <label for="message" class="form-label" data-content-key="contact.form.message_label">Message</label>
+            <textarea id="message" name="message" class="form-input form-textarea" rows="5"
+              placeholder="Tell me about your project..." data-content-placeholder="contact.form.message_placeholder"
+              required></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full" id="form-submit"
+            data-content-key="contact.form.submit">
+            Send Message
+          </button>
+          <p class="form-status" id="form-status" role="alert" aria-live="polite"></p>
+          <div id="recaptcha-widget"></div>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer__inner">
+      <p class="footer__copy">
+        &copy; <span id="current-year"></span> <span data-content-key="footer.copy"></span>
+      </p>
+      <nav class="footer__nav" aria-label="Footer navigation">
+        <a href="#about" class="footer__link">About</a>
+        <a href="#skills" class="footer__link">Skills</a>
+        <a href="#portfolio" class="footer__link">Portfolio</a>
+        <a href="#contact" class="footer__link">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
 </html>
-
